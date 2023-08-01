@@ -1,0 +1,233 @@
+/* GLAVA START */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+/* GLAVA END */
+
+/* HEADER START */
+#header {
+  padding: 25px 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-mouse {
+  display: flex;
+  align-items: center;
+}
+.header-mouse img {
+  width: 34px;
+  height: 34px;
+  margin-top: -6px;
+  margin-right: 5px;
+}
+.header-mouse h4 {
+  color: var(--unnamed, #0c76d8);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+.header-mouse h4 span {
+  color: var(--unnamed, #2a2d46);
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.header-nav-blue {
+  color: var(--unnamed, #0c76d8);
+}
+.header-nav a {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 30px;
+}
+.header-nav a ion-icon {
+  font-size: 24px;
+  margin-top: 5px;
+}
+.header-button {
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.header-button a {
+  color: var(--unnamed, #2a2d46);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 30px;
+}
+.header-button button {
+  color: var(--unnamed, #eb2d66);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 700;
+  border: 1px solid var(--unnamed, #eb2d66);
+  width: 130px;
+  height: 30px;
+}
+.header-shop {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.header-shop a {
+  font-size: 40px;
+  color: var(--unnamed, #eb2d66);
+}
+.header-shop select {
+  background: 0;
+  border: none;
+  margin-top: -10px;
+  margin-left: 5px;
+  color: var(--unnamed, #2a2d46);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+}
+/* HEADER END */
+
+/* DRON START */
+#dron {
+  padding: 40px 0;
+}
+.dron {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dron-text h1 {
+  color: var(--unnamed, #2a2d46);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.dron-text h6 {
+  color: var(--unnamed, #2a2d46);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145.4%; /* 23.264px */
+  margin-top: 39px;
+}
+.dron-text button {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 145.4%; /* 21.81px */
+  background: var(--unnamed, #eb2d66);
+  box-shadow: 0px 7px 35px 0px rgba(235, 45, 102, 0.35);
+  padding: 15px 34px 14px 38px;
+  margin-top: 45px;
+  /* transform: matrix(0,1,1,0,0,0); */
+}
+.dron-img {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.b-dron {
+  position: absolute;
+  bottom: 5vh;
+  right: 0;
+  left: -10vh;
+  z-index: 1;
+}
+.d-ron {
+  position: absolute;
+  bottom: 4vh;
+  right: 10vw;
+  z-index: 2;
+  animation: dron 8s infinite ease-in-out;
+}
+@keyframes dron {
+  0% {
+    margin-left: 300px;
+    opacity: 0;
+  }
+  25% {
+    margin-bottom: 200px;
+    opacity: 1;
+  }
+  50% {
+    margin-bottom: -190px;
+    opacity: 1;
+  }
+  75% {
+    margin-top: 100px;
+
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.block_text a {
+  font-size: 12px;
+  background: white;
+  color: white;
+  margin-left: -20px;
+}
+.block_text {
+  position: absolute;
+  bottom: 10vh;
+  z-index: 3;
+  right: 10vw;
+  /* width: 980%; */
+}
+.block_text h1 {
+  color: white;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 900;
+  line-height: normal;
+}
+.block_text p {
+  color: white;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 145.4%; /* 23.264px */
+  margin: 10px 0;
+}
+.block_text span {
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+}
+/* DRON END */
+
+
